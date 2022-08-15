@@ -163,7 +163,7 @@ export default function CustomizedTables() {
 
   const FetchData = async () => {
     const res = await axios({
-      url: "      https://newsapi.org/v2/everything?q=tesla&from=2022-07-15&sortBy=publishedAt&apiKey=7e9f13eef6b3485e9f9bc00ce148a174",
+      url:"https://newsapi.org/v2/everything?q=tesla&from=2022-07-15&sortBy=publishedAt&apiKey=7e9f13eef6b3485e9f9bc00ce148a174",
       method: "GET",
     })
       .then((res) => {
